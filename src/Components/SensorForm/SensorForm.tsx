@@ -31,11 +31,11 @@ const SensorForm = ({sensor, onSubmit}: SensorFormProps) => {
         <label>Indoor</label>
         <label>
           true
-          <input type="radio" {...register('indoor', { required: true })} value="true" />
+          <input type="radio" checked={sensor?.indoor} {...register('indoor', { required: true })} value="true" />
         </label>
         <label>
           false
-          <input type="radio" {...register('indoor', { required: true })} value="false" />
+          <input type="radio" checked={!sensor?.indoor} {...register('indoor', { required: true })} value="false" />
         </label>
         <input type="submit" />
       </form>

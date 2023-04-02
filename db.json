@@ -1,10 +1,10 @@
 {
   "sensors": [
     {
-      "id": 1,
-      "location": "Helsinki",
       "model": "DS18B20",
-      "indoor": true
+      "location": "Helsinki",
+      "indoor": true,
+      "id": 1
     },
     {
       "id": 2,
