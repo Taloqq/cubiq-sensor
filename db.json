@@ -17,36 +17,6 @@
       "location": "Vantaa",
       "model": "BME280",
       "indoor": true
-    },
-    {
-      "model": "dsa",
-      "location": "d",
-      "indoor": "dsa",
-      "id": 8725
-    },
-    {
-      "model": "test",
-      "location": "test",
-      "indoor": "true",
-      "id": 31231
-    },
-    {
-      "model": "ewq",
-      "location": "ewq",
-      "indoor": "true",
-      "id": 22527
-    },
-    {
-      "model": "123",
-      "location": "123",
-      "indoor": "true",
-      "id": 40295
-    },
-    {
-      "model": "1233333",
-      "location": "555555",
-      "indoor": true,
-      "id": 46057
     }
   ],
   "measurements": [
