@@ -1,9 +1,7 @@
 import React, {useState} from 'react';
-import { useForm } from "react-hook-form";
 import { addSensor } from '../../services/services';
 import { ISensor } from '../../types/types';
 import SensorForm from '../SensorForm/SensorForm';
-import styles from './AddSensor.module.css';
 
 const AddSensor = () => {
 

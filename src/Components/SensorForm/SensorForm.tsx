@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { useForm } from "react-hook-form";
 import { ISensor } from '../../types/types';
 import styles from './SensorForm.module.css';
@@ -37,7 +37,6 @@ const SensorForm = ({sensor, onSubmit}: SensorFormProps) => {
           false
           <input type="radio" {...register('indoor', { required: true })} value="false" />
         </label>
-        
         <input type="submit" />
       </form>
       
