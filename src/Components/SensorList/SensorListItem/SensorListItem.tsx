@@ -26,6 +26,7 @@ const SensorListItem = ({sensor}: SensorListItemProps) => {
       </div>
     )
   }
+  
   return (
     <div className={styles.container}>
       <div>model: {sensor.model}</div>
